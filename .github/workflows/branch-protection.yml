@@ -1,0 +1,31 @@
+name: Branch Protection
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  protect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify Tests Pass
+        run: |
+          npm ci
+          npm test
+        
+      - name: Verify Linting
+        run: |
+          npm run lint
+          
+      - name: Check Commit Convention
+        uses: wagoid/commitlint-github-action@v5
+
+      - name: Block Merge on Failed Checks
+        if: ${{ failure() }}
+        run: exit 1

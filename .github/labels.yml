@@ -1,0 +1,51 @@
+- name: "bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "documentation"
+  color: "0075ca"
+  description: "Improvements or additions to documentation"
+
+- name: "enhancement"
+  color: "a2eeef"
+  description: "New feature or request"
+
+- name: "help wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+
+- name: "question"
+  color: "d876e3"
+  description: "Further information is requested"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "This will not be worked on"
+
+- name: "automod"
+  color: "1d76db"
+  description: "Related to automod features"
+
+- name: "music"
+  color: "fbca04"
+  description: "Related to music features"
+
+- name: "leveling"
+  color: "0e8a16"
+  description: "Related to leveling system"
+
+- name: "stats"
+  color: "5319e7"
+  description: "Related to server statistics"
+
+- name: "security"
+  color: "b60205"
+  description: "Security related changes"
+
+- name: "performance"
+  color: "006b75"
+  description: "Performance improvements"
+
+- name: "testing"
+  color: "cccccc"
+  description: "Testing related changes"
