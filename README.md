@@ -1,171 +1,165 @@
-<<<<<<< HEAD
 # All-In-One Discord Bot
 
 [![CI/CD](https://github.com/MAD900/all-in-one-discord-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/MAD900/all-in-one-discord-bot/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/MAD900/all-in-one-discord-bot/branch/main/graph/badge.svg)](https://codecov.io/gh/MAD900/all-in-one-discord-bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A feature-rich Discord bot with moderation, music, leveling, and more.
+A comprehensive Discord bot with advanced moderation, music, leveling, and more.
 
-## Features
+## 🌟 Features
 
-- **AutoMod**
-  - Anti-spam protection
-  - Bad words filter
-  - Link control
-  - Mention spam protection
-  - Caps detection
-  - Configurable punishments
+### 🛡️ Moderation System
+- **AutoMod Features**
+  - Anti-Spam Protection: Prevents message spam and duplicate content
+  - Bad Words Filter: Customizable word blacklist with auto-deletion
+  - Link Control: Whitelist/blacklist domains and auto-moderate links
+  - Mention Spam Protection: Prevents mass mentioning of users/roles
+  - Caps Filter: Controls excessive use of capital letters
+  - Raid Protection: Automatic detection and prevention of raids
 
-- **Level System**
-  - Message XP
-  - Voice activity XP
-  - Customizable rates
-  - Leaderboards
+- **Manual Moderation**
+  - Ban/Kick/Mute Commands
+  - Warning System with History
+  - Bulk Message Deletion
+  - Channel Lockdown
+  - Temporary Mutes/Bans
+  - Moderation Logs
 
-- **Server Statistics**
-  - Message tracking
-  - Voice activity
-  - Member analytics
-  - Command usage
-  - Data export (JSON/CSV)
+### 🎵 Music System
+- **Playback Features**
+  - YouTube Support
+  - Spotify Integration
+  - SoundCloud Support
+  - Local File Playback
+  - High Quality Audio
 
+- **Music Controls**
+  - Queue Management
+  - Volume Control
+  - Audio Filters (Bass boost, etc.)
+  - Loop/Repeat Modes
+  - Skip/Stop/Pause
+  - Seek Function
+
+### ⭐ Leveling System
+- **XP Features**
+  - Message XP Gain
+  - Voice Activity XP
+  - Custom XP Rates
+  - Role Rewards
+  - Level-up Notifications
+
+- **Leaderboard System**
+  - Server Rankings
+  - Voice Time Tracking
+  - Custom Rank Cards
+  - Progress Display
+  - Weekly/Monthly Resets
+
+### 📊 Server Statistics
+- **Tracking Features**
+  - Message Analytics
+  - Voice Activity Time
+  - Member Join/Leave Tracking
+  - Command Usage Stats
+  - Channel Activity
+
+- **Data Features**
+  - Custom Charts
+  - Data Export (JSON/CSV)
+  - Growth Analytics
+  - Activity Heatmaps
+  - Trend Analysis
+
+### 🎮 Fun & Games
+- **Mini-Games**
+  - Trivia
+  - Hangman
+  - Connect Four
+  - Tic Tac Toe
+  - Snake
+
+- **Utility Features**
+  - Custom Embeds
+  - Polls
+  - Reminders
+  - Welcome Messages
+  - Birthday Tracking
+
+### 🎭 Role Management
 - **Reaction Roles**
-  - Multiple roles per message
-  - Role persistence
-  - Automatic sync
+  - Multiple Roles per Message
+  - Custom Emojis
+  - Role Categories
+  - Temporary Roles
+  - Role Menus
 
-## Quick Start
+- **Auto Roles**
+  - Join Roles
+  - Level-Based Roles
+  - Time-Based Roles
+  - Activity Roles
+  - Voice Roles
 
-1. **Clone and Install**
-   ```bash
-   git clone https://github.com/MAD900/all-in-one-discord-bot.git
-   cd all-in-one-discord-bot
-   npm install
-   ```
+### 🎫 Ticket System
+- **Ticket Features**
+  - Custom Categories
+  - Auto-Response
+  - Staff Roles
+  - Ticket Logs
+  - Transcript Export
 
-2. **Setup**
-   ```bash
-   npm run setup
-   ```
+### 🌍 Localization
+- Multiple Language Support
+- Easy Translation System
+- Region-Specific Settings
 
-3. **Start Bot**
-   ```bash
-   # Development
-   npm run dev
+## 🚀 Getting Started
 
-   # Production
-   npm run deploy
-   ```
+1. Clone the repository
+```bash
+git clone https://github.com/MAD900/all-in-one-discord-bot.git
+cd all-in-one-discord-bot
+```
 
-## Configuration
+2. Install dependencies
+```bash
+npm install
+```
 
-### Environment Variables
-
-Create a `.env` file:
+3. Create `.env` file
 ```env
 BOT_TOKEN=your_bot_token
 CLIENT_ID=your_client_id
 MONGODB_URI=your_mongodb_uri
-
-# Optional Settings
-GUILD_ID=development_server_id
-MOD_LOGS_CHANNEL=channel_id
-ERROR_LOGS_CHANNEL=channel_id
 ```
 
-### AutoMod Settings
-```env
-AUTOMOD_MAX_MENTIONS=5
-AUTOMOD_MAX_MESSAGES=5
-AUTOMOD_MAX_LINKS=3
-AUTOMOD_MAX_CAPS_PERCENT=70
-```
-
-### XP Settings
-```env
-XP_PER_MESSAGE=25
-XP_PER_VOICE_MINUTE=10
-XP_COOLDOWN_SECONDS=60
-```
-
-## Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm test` - Run tests
-- `npm run test:coverage` - Run tests with coverage
-- `npm run test:integration` - Run integration tests
-- `npm run lint` - Check code style
-- `npm run format` - Format code
-- `npm run validate` - Validate environment
-- `npm run monitor` - Start monitoring
-- `npm run backup` - Create database backup
-- `npm run restore` - Restore database backup
-
-### Testing
-
+4. Run setup
 ```bash
-# Unit Tests
-npm test
-
-# Integration Tests
-npm run test:integration
-
-# Coverage Report
-npm run test:coverage
+npm run setup
 ```
 
-### Monitoring
-
+5. Start the bot
 ```bash
-# Direct monitoring
-npm run monitor
-
-# PM2 monitoring
-npm run monitor:pm2
-pm2 monit
+npm run dev
 ```
 
-### Database Management
+## 📚 Documentation
 
-```bash
-# Create backup
-npm run backup
+Visit our [Documentation](https://mad900.github.io/all-in-one-discord-bot/) for:
+- Detailed setup instructions
+- Command reference
+- Configuration guide
+- API documentation
+- Examples
 
-# Restore backup
-npm run restore
-```
+## 🤝 Contributing
 
-## Deployment
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md).
 
-1. Set up GitHub repository
-2. Configure GitHub Secrets:
-   - `DISCORD_BOT_TOKEN`
-   - `DISCORD_CLIENT_ID`
-   - `DEPLOY_SSH_KEY`
-   - `DEPLOY_USER`
-   - `DEPLOY_HOST`
-   - `DEPLOY_PATH`
+## 📄 License
 
-3. Push to main branch:
-   ```bash
-   git push origin main
-   ```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
+## 🔧 Support
 
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Create Pull Request
-
-## License
-
-MIT License - see [LICENSE](LICENSE) for details
-=======
-# all-in-one-discord-bot
-A comprehensive Discord bot built with discord.js featuring advanced moderation tools, AutoMod system, leveling, music playback, reaction roles, and detailed server statistics. Includes automated testing, monitoring, and deployment pipelines
->>>>>>> 0b52695d6e2e40385ec6228a9f41904cecbf4245
+Need help? Check our [FAQ](docs/wiki/FAQ.md) or open an issue.
