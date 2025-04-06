@@ -1,0 +1,68 @@
+{
+    "common": {
+        "error": "An error occurred: {{error}}",
+        "success": "Success!",
+        "permission_denied": "You don't have permission to use this command.",
+        "invalid_user": "Invalid user specified.",
+        "invalid_channel": "Invalid channel specified.",
+        "invalid_role": "Invalid role specified."
+    },
+    "admin": {
+        "ban": {
+            "success": "Successfully banned {{user}} for: {{reason}}",
+            "error": "Failed to ban user: {{error}}",
+            "no_permission": "I cannot ban this user! They may have higher permissions than me."
+        },
+        "kick": {
+            "success": "Successfully kicked {{user}} for: {{reason}}",
+            "error": "Failed to kick user: {{error}}",
+            "no_permission": "I cannot kick this user! They may have higher permissions than me."
+        },
+        "mute": {
+            "success": "Successfully muted {{user}} for {{duration}}. Reason: {{reason}}",
+            "error": "Failed to mute user: {{error}}",
+            "no_permission": "I cannot mute this user! They may have higher permissions than me."
+        },
+        "warn": {
+            "success": "Successfully warned {{user}}. They now have {{count}} warning(s).",
+            "error": "Failed to warn user: {{error}}"
+        }
+    },
+    "music": {
+        "not_in_voice": "You need to be in a voice channel!",
+        "no_permission": "I need permissions to join and speak in your voice channel!",
+        "not_playing": "There is nothing playing!",
+        "now_playing": "Now Playing: {{song}}",
+        "added_to_queue": "Added to queue: {{song}}",
+        "queue_empty": "The queue is empty!",
+        "skipped": "Skipped: {{song}}",
+        "volume_set": "Volume set to {{volume}}%"
+    },
+    "games": {
+        "tictactoe": {
+            "already_playing": "You're already in a game!",
+            "not_against_self": "You can't play against yourself!",
+            "not_against_bot": "You can't play against a bot!",
+            "your_turn": "It's your turn!",
+            "game_over": "Game Over!",
+            "winner": "{{winner}} wins!",
+            "draw": "It's a draw!"
+        },
+        "snake": {
+            "game_over": "Game Over! Final Score: {{score}}",
+            "score": "Score: {{score}}"
+        },
+        "trivia": {
+            "correct": "Correct!",
+            "incorrect": "Incorrect! The answer was: {{answer}}",
+            "times_up": "Time's up! The answer was: {{answer}}"
+        }
+    },
+    "tickets": {
+        "setup_success": "Ticket system has been set up successfully!",
+        "already_has_ticket": "You already have an open ticket: {{channel}}",
+        "created": "Your ticket has been created: {{channel}}",
+        "closed": "Ticket has been closed by {{user}}",
+        "transcript_created": "Transcript has been created and saved."
+    }
+}

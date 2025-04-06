@@ -1,0 +1,68 @@
+{
+    "common": {
+        "error": "Ocurrió un error: {{error}}",
+        "success": "¡Éxito!",
+        "permission_denied": "No tienes permiso para usar este comando.",
+        "invalid_user": "Usuario inválido especificado.",
+        "invalid_channel": "Canal inválido especificado.",
+        "invalid_role": "Rol inválido especificado."
+    },
+    "admin": {
+        "ban": {
+            "success": "{{user}} ha sido baneado exitosamente por: {{reason}}",
+            "error": "Error al banear al usuario: {{error}}",
+            "no_permission": "¡No puedo banear a este usuario! Puede tener permisos más altos que yo."
+        },
+        "kick": {
+            "success": "{{user}} ha sido expulsado exitosamente por: {{reason}}",
+            "error": "Error al expulsar al usuario: {{error}}",
+            "no_permission": "¡No puedo expulsar a este usuario! Puede tener permisos más altos que yo."
+        },
+        "mute": {
+            "success": "{{user}} ha sido silenciado por {{duration}}. Razón: {{reason}}",
+            "error": "Error al silenciar al usuario: {{error}}",
+            "no_permission": "¡No puedo silenciar a este usuario! Puede tener permisos más altos que yo."
+        },
+        "warn": {
+            "success": "{{user}} ha sido advertido. Ahora tiene {{count}} advertencia(s).",
+            "error": "Error al advertir al usuario: {{error}}"
+        }
+    },
+    "music": {
+        "not_in_voice": "¡Necesitas estar en un canal de voz!",
+        "no_permission": "¡Necesito permisos para unirme y hablar en tu canal de voz!",
+        "not_playing": "¡No hay nada reproduciendo!",
+        "now_playing": "Reproduciendo ahora: {{song}}",
+        "added_to_queue": "Añadido a la cola: {{song}}",
+        "queue_empty": "¡La cola está vacía!",
+        "skipped": "Saltado: {{song}}",
+        "volume_set": "Volumen establecido a {{volume}}%"
+    },
+    "games": {
+        "tictactoe": {
+            "already_playing": "¡Ya estás en una partida!",
+            "not_against_self": "¡No puedes jugar contra ti mismo!",
+            "not_against_bot": "¡No puedes jugar contra un bot!",
+            "your_turn": "¡Es tu turno!",
+            "game_over": "¡Juego Terminado!",
+            "winner": "¡{{winner}} gana!",
+            "draw": "¡Es un empate!"
+        },
+        "snake": {
+            "game_over": "¡Juego Terminado! Puntuación Final: {{score}}",
+            "score": "Puntuación: {{score}}"
+        },
+        "trivia": {
+            "correct": "¡Correcto!",
+            "incorrect": "¡Incorrecto! La respuesta era: {{answer}}",
+            "times_up": "¡Se acabó el tiempo! La respuesta era: {{answer}}"
+        }
+    },
+    "tickets": {
+        "setup_success": "¡El sistema de tickets ha sido configurado exitosamente!",
+        "already_has_ticket": "Ya tienes un ticket abierto: {{channel}}",
+        "created": "Tu ticket ha sido creado: {{channel}}",
+        "closed": "Ticket cerrado por {{user}}",
+        "transcript_created": "La transcripción ha sido creada y guardada."
+    }
+}
