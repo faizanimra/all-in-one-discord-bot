@@ -1,0 +1,10 @@
+theme: jekyll-theme-cayman
+title: All-In-One Discord Bot
+description: A feature-rich Discord bot with moderation, music, leveling, and more
+show_downloads: true
+google_analytics:
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
