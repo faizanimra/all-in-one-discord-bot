@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # All-In-One Discord Bot
 
 [![CI/CD](https://github.com/MAD900/all-in-one-discord-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/MAD900/all-in-one-discord-bot/actions/workflows/ci.yml)
@@ -164,3 +165,7 @@ npm run restore
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details
+=======
+# all-in-one-discord-bot
+A comprehensive Discord bot built with discord.js featuring advanced moderation tools, AutoMod system, leveling, music playback, reaction roles, and detailed server statistics. Includes automated testing, monitoring, and deployment pipelines
+>>>>>>> 0b52695d6e2e40385ec6228a9f41904cecbf4245
