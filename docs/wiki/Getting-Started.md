@@ -13,7 +13,7 @@ Before setting up the bot, ensure you have:
 
 1. **Clone and Install**
 ```bash
-git clone https://github.com/MAD900/all-in-one-discord-bot.git
+git clone https://github.com/madx900/all-in-one-discord-bot.git
 cd all-in-one-discord-bot
 npm install
 ```
