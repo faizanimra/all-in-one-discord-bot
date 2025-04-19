@@ -117,7 +117,7 @@ A comprehensive Discord bot with advanced moderation, music, leveling, and more.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/MAD900/all-in-one-discord-bot.git
+git clone https://github.com/madx900/all-in-one-discord-bot.git
 cd all-in-one-discord-bot
 ```
 
