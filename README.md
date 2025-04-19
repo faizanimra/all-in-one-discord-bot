@@ -1,6 +1,6 @@
 # All-In-One Discord Bot
 
-[![CI/CD](https://github.com/MAD900/all-in-one-discord-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/MADX900/all-in-one-discord-bot/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/madx900/all-in-one-discord-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/MADX900/all-in-one-discord-bot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive Discord bot with advanced moderation, music, leveling, and more.
@@ -145,7 +145,7 @@ npm run dev
 
 ## 📚 Documentation
 
-Visit our [Documentation](https://MADX900.github.io/all-in-one-discord-bot/) for:
+Visit our [Documentation](https://madx900.github.io/all-in-one-discord-bot/) for:
 - Detailed setup instructions
 - Command reference
 - Configuration guide
