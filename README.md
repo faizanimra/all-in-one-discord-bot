@@ -2,7 +2,9 @@
 
 [![CI/CD](https://github.com/madx900/all-in-one-discord-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/MADX900/all-in-one-discord-bot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 A comprehensive Discord bot with advanced moderation, music, leveling, and more.
 
 ## 🌟 Features
